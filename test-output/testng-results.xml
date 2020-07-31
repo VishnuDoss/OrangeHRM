@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162779" started-at="2020-07-31T19:02:56 IST" finished-at="2020-07-31T19:05:39 IST">
+    <groups>
+    </groups>
+    <test name="Tests1" duration-ms="38134" started-at="2020-07-31T19:02:56 IST" finished-at="2020-07-31T19:03:34 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="browserinit(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@1f7030a6]" name="browserinit" is-config="true" duration-ms="13182" started-at="2020-07-31T19:02:56 IST" finished-at="2020-07-31T19:03:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:testcases.LoginTest@1f7030a6]" name="Login" duration-ms="24233" started-at="2020-07-31T19:03:10 IST" finished-at="2020-07-31T19:03:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testcases.LoginTest@1f7030a6]" name="browserClose" is-config="true" duration-ms="676" started-at="2020-07-31T19:03:34 IST" finished-at="2020-07-31T19:03:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Tests1 -->
+    <test name="Tests2" duration-ms="32403" started-at="2020-07-31T19:03:35 IST" finished-at="2020-07-31T19:04:07 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="browserinit(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7a1ebcd8]" name="browserinit" is-config="true" duration-ms="8672" started-at="2020-07-31T19:03:35 IST" finished-at="2020-07-31T19:03:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:testcases.LoginTest@7a1ebcd8]" name="Login" duration-ms="23046" started-at="2020-07-31T19:03:43 IST" finished-at="2020-07-31T19:04:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[_ohrmSysAdmin_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testcases.LoginTest@7a1ebcd8]" name="browserClose" is-config="true" duration-ms="679" started-at="2020-07-31T19:04:06 IST" finished-at="2020-07-31T19:04:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Tests2 -->
+    <test name="Tests3" duration-ms="33705" started-at="2020-07-31T19:04:07 IST" finished-at="2020-07-31T19:04:41 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="browserinit(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="browserinit" is-config="true" duration-ms="9885" started-at="2020-07-31T19:04:07 IST" finished-at="2020-07-31T19:04:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="Login" duration-ms="23141" started-at="2020-07-31T19:04:17 IST" finished-at="2020-07-31T19:04:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="browserClose" is-config="true" duration-ms="675" started-at="2020-07-31T19:04:40 IST" finished-at="2020-07-31T19:04:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Tests3 -->
+    <test name="Tests4" duration-ms="32670" started-at="2020-07-31T19:04:41 IST" finished-at="2020-07-31T19:05:13 IST">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="browserinit(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@78e67e0a]" name="browserinit" is-config="true" duration-ms="8694" started-at="2020-07-31T19:04:41 IST" finished-at="2020-07-31T19:04:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:testcases.LoginTest@78e67e0a]" name="Login" duration-ms="23293" started-at="2020-07-31T19:04:49 IST" finished-at="2020-07-31T19:05:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testcases.LoginTest@78e67e0a]" name="browserClose" is-config="true" duration-ms="679" started-at="2020-07-31T19:05:13 IST" finished-at="2020-07-31T19:05:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Tests4 -->
+    <test name="Tests5" duration-ms="25755" started-at="2020-07-31T19:05:13 IST" finished-at="2020-07-31T19:05:39 IST">
+      <class name="testcases.EmployTest">
+        <test-method status="PASS" signature="browserinit(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.EmployTest@2a556333]" name="browserinit" is-config="true" duration-ms="9854" started-at="2020-07-31T19:05:13 IST" finished-at="2020-07-31T19:05:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="Login(java.lang.String)[pri:0, instance:testcases.EmployTest@2a556333]" name="Login" duration-ms="15210" started-at="2020-07-31T19:05:23 IST" finished-at="2020-07-31T19:05:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testcases.EmployTest@2a556333]" name="browserClose" is-config="true" duration-ms="689" started-at="2020-07-31T19:05:38 IST" finished-at="2020-07-31T19:05:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testcases.EmployTest -->
+    </test> <!-- Tests5 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="os"  value="Windows"/>
+<parameter name="browser"  value="Chrome"/>
+<parameter name="url"  value="https://orangehrm-demo-6x.orangehrmlive.com/auth/login"/>
+ 
+ 	<test  name="Tests1">
+ 		<parameter name="user"  value="admin"/>
+	      <classes>
+	      <class name="testcases.LoginTest"/>
+	    </classes>
+    	</test>
+    	
+   <test  name="Tests2">
+    	<parameter name="user"  value="_ohrmSysAdmin_"/>
+		 <classes>
+		    <class name="testcases.LoginTest"/>
+		    </classes>
+		 </test>
+    	
+   <test  name="Tests3">
+    	<parameter name="user"  value="kevin"/>
+	      <classes>
+	      <class name="testcases.LoginTest"/>
+	    </classes>
+    	</test>
+    	
+   <test  name="Tests4">
+    	<parameter name="user"  value="linda"/>
+	      <classes>
+	      <class name="testcases.LoginTest"/>
+	    </classes>
+    	</test>
+    	
+    <test  name="Tests5">
+    	<parameter name="user"  value="admin"/>
+	      <classes>
+	      <class name="testcases.EmployTest"/>
+	    </classes>
+    	</test>
+    
+</suite> <!-- Suite -->

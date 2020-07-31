@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="user" value="linda"/>
+  <parameter name="url" value="https://orangehrm-demo-6x.orangehrmlive.com/auth/login"/>
+  <test thread-count="5" name="Tests2(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="browserinit"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Tests2(failed) -->
+  <test thread-count="5" name="Tests3(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="browserinit"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Tests3(failed) -->
+  <test thread-count="5" name="Tests4(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="browserinit"/>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Tests4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
